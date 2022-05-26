@@ -1,0 +1,12 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+.background
+{
+      background: linear-gradient(90deg, #000428, #004e92);
+      width: 100vw;
+      height: 100vh;
+      color: white;
+}
