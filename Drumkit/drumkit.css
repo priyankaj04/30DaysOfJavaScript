@@ -50,6 +50,7 @@ span
 
 .playing
 {
+      transform: scale(1);
       border: 2px solid yellow;
       box-shadow: 1px 1px 10px 1px yellow;
 }
