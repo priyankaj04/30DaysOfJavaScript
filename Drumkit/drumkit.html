@@ -5,14 +5,15 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="favicon.png">
         <link rel="stylesheet" href="drumkit.css" />
-        <title>Document</title>
+        <title>Drumkit</title>
 </head>
 
 <body>
         <div class="background">
                 <div class="keys">
-                        <div class="key" data-key="65">
+                        <div class="key playing" data-key="65">
                                 <kbd>A</kbd>
                                 <span class="sound">CLAP</span>
                         </div>
@@ -26,31 +27,39 @@
                         </div>
                         <div class="key" data-key="70">
                                 <kbd>F</kbd>
-                                <span class="sound">OPENHAT</span>
+                                <span class="sound">CRASH</span>
                         </div>
                         <div class="key" data-key="71">
                                 <kbd>G</kbd>
-                                <span class="sound">BOOM</span>
+                                <span class="sound">CONGA</span>
                         </div>
                         <div class="key" data-key="72">
                                 <kbd>H</kbd>
-                                <span class="sound">RIDE</span>
+                                <span class="sound">BIG DRUM</span>
                         </div>
                         <div class="key" data-key="74">
                                 <kbd>J</kbd>
                                 <span class="sound">SNARE</span>
                         </div>
-
                         <div class="key" data-key="75">
                                 <kbd>K</kbd>
                                 <span class="sound">TOM</span>
                         </div>
                         <div class="key" data-key="76">
                                 <kbd>L</kbd>
-                                <span class="sound">TINK</span>
+                                <span class="sound">COWBELL</span>
                         </div>
                 </div>
         </div>
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hats.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/crash.wav"></audio>
+        <audio data-key="71" src="sounds/conga.wav"></audio>
+        <audio data-key="72" src="sounds/bigdrum.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/cowbell.wav"></audio>
 </body>
 <script src="drumkit.js" type="text/javascript"></script>
 
